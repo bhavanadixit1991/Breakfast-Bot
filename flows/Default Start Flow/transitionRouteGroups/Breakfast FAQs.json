@@ -1,0 +1,29 @@
+{
+  "name": "b2a47ba7-5e01-4ccd-959e-f95e40737c12",
+  "displayName": "Breakfast FAQs",
+  "transitionRoutes": [ {
+    "intent": "FAQ: What's on the menu?",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "We are just starting this shop. For now we only have black coffee and toast with jam and butter." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5c46ab35-d4a1-409c-a501-25716518f32c"
+  }, {
+    "intent": "FAQ: Do you offer delivery?",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure! We offer a takeaway and a delivery option. You can specify this after finishing your order." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "91d45640-9367-462a-887d-6e96cf45edc1"
+  } ]
+}

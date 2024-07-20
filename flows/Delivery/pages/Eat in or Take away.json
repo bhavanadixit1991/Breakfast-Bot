@@ -1,0 +1,38 @@
+{
+  "name": "e7acc209-4ef5-4487-a423-d0dccfbf2252",
+  "displayName": "Eat in or Take away",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you like to eat in or take away?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Eat In",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You chose to eat in. Please proceed to the dining area." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "86202638-d7ee-4da5-be49-b7389e35de18"
+  }, {
+    "intent": "Take away",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You chose to take away. Your order will be ready shortly." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5ad9198b-8f5b-4ffe-bc00-05b4760922db"
+  } ]
+}

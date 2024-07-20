@@ -1,0 +1,40 @@
+{
+  "name": "e314cdde-56bf-481c-ad2f-9b829db71f5e",
+  "displayName": "Breakfast type",
+  "form": {
+    "parameters": [ {
+      "displayName": "Breakfast",
+      "required": true,
+      "entityType": "@breakfast-type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "We offer Eggs Benedict, Avocado on Toast, Chicken Muffin, Chicken Ham Wrap, Hotcakes, Scrambled Egg Burger with Sausage. \nWhich one would you like?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Order Breakfast",
+    "triggerFulfillment": {
+    
+    },
+    "name": "10f80b07-33fe-4b0a-9d6e-8e433f5c0e95"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Your $session.params.coffee and $intent.params.breakfast coming right away! " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Delivery",
+    "name": "371b9006-fc22-4493-ad40-8d3108b0031c"
+  } ]
+}

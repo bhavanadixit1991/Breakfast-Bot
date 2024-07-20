@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Eggs Benedict",
+    "synonyms": [ "Eggs", "Eggs Benedict" ],
+    "languageCode": "en"
+  }, {
+    "value": "Avocado on Toast",
+    "synonyms": [ "Avocado", "Avocado on Toast", "Toast" ],
+    "languageCode": "en"
+  }, {
+    "value": "Chicken Muffin",
+    "synonyms": [ "Chicken", "Chicken Muffin", "Muffin" ],
+    "languageCode": "en"
+  }, {
+    "value": "Chicken Ham Wrap",
+    "synonyms": [ "Chicken Ham Wrap", "Ham", "Wrap" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hotcakes",
+    "synonyms": [ "Hotcakes", "Pancakes" ],
+    "languageCode": "en"
+  }, {
+    "value": "Scrambled Egg Burger with Sausage",
+    "synonyms": [ "Burger", "Sausage", "Scrambled", "Scrambled Egg Burger with Sausage" ],
+    "languageCode": "en"
+  } ]
+}

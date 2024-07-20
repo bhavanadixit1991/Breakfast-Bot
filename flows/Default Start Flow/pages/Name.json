@@ -1,0 +1,30 @@
+{
+  "name": "7a31fdbf-9072-4e58-9db7-02de380190bf",
+  "displayName": "Name",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi! What's your name?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "GetName",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi, $intent.params.person" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Coffee",
+    "name": "5b47742f-c7fe-487d-a739-594945c2006b"
+  } ],
+  "transitionRouteGroups": [ "Breakfast FAQs" ]
+}

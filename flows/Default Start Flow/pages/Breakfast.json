@@ -1,0 +1,49 @@
+{
+  "name": "c0e4f8d6-74f0-47b2-a78f-f346c0d32444",
+  "displayName": "Breakfast",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "And would you like some breakfast as well? " ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "My pleasure, $session.params.person!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Breakfast type",
+    "name": "e6d81f4b-a70f-4f0c-91ec-b0e67a27ad4c"
+  }, {
+    "intent": "No",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "46342f27-9feb-4e6d-9c54-6f3f58d891e7"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Breakfast",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't understand. Try answering with 'yes' or 'no'." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "e17697d9-cad7-4f36-9ba8-c3cc5c0e7924"
+  } ],
+  "transitionRouteGroups": [ "Breakfast FAQs" ]
+}

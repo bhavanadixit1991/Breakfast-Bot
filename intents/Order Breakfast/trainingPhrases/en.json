@@ -1,0 +1,148 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "sausage burger",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "egg burger",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "scrambled",
+      "parameterId": "breakfast"
+    }, {
+      "text": " "
+    }, {
+      "text": "egg",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "pancakes",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cakes",
+      "parameterId": "breakfast"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hotcakes",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Ham wrap",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Chicken wrap",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "A ",
+      "auto": true
+    }, {
+      "text": "wrap",
+      "parameterId": "breakfast",
+      "auto": true
+    }, {
+      "text": " please",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "A ",
+      "auto": true
+    }, {
+      "text": "muffin",
+      "parameterId": "breakfast",
+      "auto": true
+    }, {
+      "text": " please",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "muffin",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Chicken muffin",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "toast",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "A plate of ",
+      "auto": true
+    }, {
+      "text": "eggs benedict",
+      "parameterId": "breakfast",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I would like some ",
+      "auto": true
+    }, {
+      "text": "avocado on toast",
+      "parameterId": "breakfast",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

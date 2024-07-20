@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Americano",
+    "synonyms": [ "americano", "Americano", "black coffee", "long black" ],
+    "languageCode": "en"
+  }, {
+    "value": "Expresso",
+    "synonyms": [ "Expresso" ],
+    "languageCode": "en"
+  }, {
+    "value": "Cappuccino",
+    "synonyms": [ "cappuccino", "Cappuccino", "capucino" ],
+    "languageCode": "en"
+  } ]
+}

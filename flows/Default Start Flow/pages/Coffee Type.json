@@ -1,0 +1,57 @@
+{
+  "name": "489a944e-b6ad-4ef1-9b32-08982abf9418",
+  "displayName": "Coffee Type",
+  "form": {
+    "parameters": [ {
+      "displayName": "Coffee",
+      "required": true,
+      "entityType": "@coffee-type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "We offer Americano, Cappuccino and Espresso. Which one would you like?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "Size",
+      "required": true,
+      "entityType": "@coffee-size",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Which size of coffee would you like? We offer small, medium and large." ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Order Coffee",
+    "triggerFulfillment": {
+    
+    },
+    "name": "465d19b0-62cc-4341-a63f-33778d622762"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "A $intent.params.size $session.params.coffee coming right away!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Breakfast",
+    "name": "e9fc2c24-415d-4ce5-b239-6bc200c5a7bf"
+  } ]
+}

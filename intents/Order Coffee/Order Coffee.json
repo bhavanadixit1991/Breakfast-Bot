@@ -1,0 +1,13 @@
+{
+  "name": "87bacd9d-e760-456f-a95c-cae842c50668",
+  "displayName": "Order Coffee",
+  "parameters": [ {
+    "id": "coffee",
+    "entityType": "@coffee-type"
+  }, {
+    "id": "size",
+    "entityType": "@coffee-size"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}
